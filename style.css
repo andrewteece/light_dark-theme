@@ -1,0 +1,30 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* CSS CUSTOM PROPERTIES */
+
+html[data-theme='light'] {
+  --clr-primary-light: #b18fcf;
+  --clr-secondary-light: #978897;
+  --clr-font-light: #1f1f1f;
+}
+
+html[data-theme='dark'] {
+  --clr-primary-dark: #2c2c34;
+  --clr-secondary-dark: #494850;
+  --clr-font-dark: #d8d8f6;
+}
+
+/* CSS RESET */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
