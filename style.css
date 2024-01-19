@@ -28,3 +28,31 @@ html[data-theme='dark'] {
   margin: 0;
   padding: 0;
 }
+
+/* Body Styles */
+
+body {
+  background-color: var(--clr-primary-light);
+  font-family: 'Roboto', sans-serif;
+  color: var(--clr-font-light);
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main .card {
+  width: 40rem;
+  height: 20rem;
+  background-color: var(--clr-secondary-light);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+}
